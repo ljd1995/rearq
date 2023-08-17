@@ -22,8 +22,8 @@ crontab = "*"
 fastapi = { version = "*", extras = ["all"] }
 loguru = "*"
 aiofiles = "*"
-tortoise-orm = { git = "https://github.com/tortoise/tortoise-orm.git", branch = "develop" }
-asyncmy = { version = "^0.2.8", optional = true }
+tortoise-orm = "*"
+asyncmy = { version = "^0.2.7", optional = true , allow-prereleases = true }
 asyncpg = { version = "*", optional = true }
 
 [tool.poetry.dev-dependencies]
