@@ -19,10 +19,10 @@ python = "^3.8"
 click = "*"
 redis = "^4.2.0rc1"
 crontab = "*"
-fastapi = { version = "*", extras = ["all"] }
+fastapi = { version = "0.90.0", extras = ["all"] }
 loguru = "*"
 aiofiles = "*"
-tortoise-orm = "*"
+tortoise-orm = "0.19.3"
 asyncmy = { version = "^0.2.7", optional = true , allow-prereleases = true }
 asyncpg = { version = "*", optional = true }
 
